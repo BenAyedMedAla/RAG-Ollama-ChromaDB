@@ -1,0 +1,29 @@
+# Ignore ChromaDB database files (replace with your ChromaDB folder name if different)
+chroma_db/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+my-env/
+
+# Ignore environment variables (e.g., .env files with sensitive data)
+.env
+
+# Ignore log files
+*.log
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/editor configuration files
+.vscode/
+.idea/
+
+# Ignore OS-specific files (e.g., macOS .DS_Store or Windows Thumbs.db)
+.DS_Store
+Thumbs.db
